@@ -7,11 +7,12 @@ Using the loc() method we were able to re-factor the code to replace 9th grade s
 ![This is an image](https://github.com/IIrazoque/School_District_Analysis/blob/85b0586db81392b829e442ceced78e2579288368/Resources/NaN_values_641.PNG)
 ## Results 
 Since we are to remove 9th grade math & reading score, the District Summary Data Frame created is affected by how we calculate averages and passing math and reading percentages. 
-### Before – District_Summary_DF (with Thomas High School 9th graders)
+
+Before – District_Summary_DF (with Thomas High School 9th graders)
 
 ![This is an image](https://github.com/IIrazoque/School_District_Analysis/blob/85b0586db81392b829e442ceced78e2579288368/Resources/district_summary_df_before.PNG)
 
-### After – District_Summary_DF (without Thomas High School 9th graders)
+After – District_Summary_DF (without Thomas High School 9th graders)
 
 ![This is an image](https://github.com/IIrazoque/School_District_Analysis/blob/85b0586db81392b829e442ceced78e2579288368/Resources/district_summary_df_after.PNG)
 
@@ -20,6 +21,7 @@ The School Summary is also affected, and new math & reading percentages need to 
 School Summary Data Frame with Old Total Student Count – affecting math and reading percentages
 
 ![This is an image](https://github.com/IIrazoque/School_District_Analysis/blob/066da0f844df3d8b57455c27a8a0b1c2922178a7/Resources/THS_per_school_summary%20without%209%20graders.PNG)
+
 School Summary Data Frame with Old Total Student Count – updated  new student count. This count exclude 9th graders from Thomas HS 
 
 ![This is an image](https://github.com/IIrazoque/School_District_Analysis/blob/85b0586db81392b829e442ceced78e2579288368/Resources/per_school_summary_top5after.PNG)
@@ -28,9 +30,11 @@ Math and reading scores remain slightly unchanged for the following –
 ### Scores by school
 
 Before 
+
 ![this is an image](https://github.com/IIrazoque/School_District_Analysis/blob/066da0f844df3d8b57455c27a8a0b1c2922178a7/Resources/scores%20by%20school%20before_math_after.PNG)
 
 After analysis 
+
 ![this is an image](https://github.com/IIrazoque/School_District_Analysis/blob/066da0f844df3d8b57455c27a8a0b1c2922178a7/Resources/scores%20by%20school%20before_math.PNG)
 
 ### Scores by school spending and school Size
